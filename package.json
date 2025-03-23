@@ -1,6 +1,7 @@
 {
   "name": "custom-mcp",
   "version": "1.0.0",
+  "type": "module",
   "description": "TypeScript MCP (Message Control Protocol) Server Example",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +18,12 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "ws": "^8.16.0"
+    "@api/open-api-docs": "file:.api/apis/open-api-docs",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.3",
+    "ws": "^8.16.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
