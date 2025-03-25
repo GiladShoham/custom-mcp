@@ -32,3 +32,6 @@ logs/
 .npm/
 .eslintcache
 .prettier 
+
+.mcp-backup.json
+.history
